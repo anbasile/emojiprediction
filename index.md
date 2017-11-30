@@ -6,6 +6,9 @@ output: revealjs::revealjs_presentation
 ---
 
 # Outline
+
+## Outline 
+
 - Motivation
 - Methodology
 - Conclusions
@@ -13,15 +16,24 @@ output: revealjs::revealjs_presentation
 
 # Motivation
 
+##
+
 - Previous models limited by binary classification and/or manual categorization
 - To detect emotion in text
 
 # Methodology
 
-- Train on 1.2 billion tweet corpus and 64 commonly used emojis
+## Training
+
+Train on 1.2 billion tweet corpus and 64 commonly used emojis
 ![Image of the 64 Emojis](./emoji_overview.png)
 
+## DNN structures
 
+Long Short-Term Memory and Skip-connections
+
+
+##
 
 # Conclusions
 
