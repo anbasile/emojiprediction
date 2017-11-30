@@ -19,7 +19,7 @@ output: revealjs::revealjs_presentation
 # Methodology
 
 - Train on 1.2 billion tweet corpus and 64 commonly used emojis
-![Image of the 64 Emojis](/Users/kennylino/Documents/EM\ LCT\ Courses/UoM\ Courses/Applied\ Machine\ Learning/emojiprediction/emoji_overview.png)
+![Image of the 64 Emojis](emoji_overview.png)
 
 
 
