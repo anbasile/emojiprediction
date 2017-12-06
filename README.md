@@ -27,7 +27,11 @@ Using the SVM
  
 Using Naive-Bayes	
 
- TODO
+	pipe = Pipeline([('tfidf', TfidfVectorizer()),
+                 ('clf', MultinomialNB())])
+	cross_val_score(pipe, esp_text, esp_labels, cv=5)
+	array([ 0.21672407,  0.21726356,  0.21785389,  0.21898439,  0.21963706])
+
 
 
 
