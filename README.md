@@ -23,8 +23,6 @@ Using Naive-Bayes
 
 Using the SVM
  
- TODO
- 
 Using Naive-Bayes	
 
 	pipe = Pipeline([('tfidf', TfidfVectorizer()),
