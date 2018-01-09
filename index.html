@@ -5,13 +5,18 @@
   <meta name="generator" content="pandoc">
   <meta name="author" content="Angelo Basile &amp; Kenny Lino">
   <meta name="dcterms.date" content="2018-01-12">
-  <title>A Review of: Using million of emoji occurrences</title>
+  <title>find a funny title</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href=".//css/reveal.css">
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href=".//css/theme/black.css" id="theme">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href=".//css/theme/white.css" id="theme">
   <!-- Printing and PDF exports -->
   <script>
     var link = document.createElement( 'link' );
@@ -28,39 +33,87 @@
   <div class="reveal">
     <div class="slides">
 
-<section>
-  <h1 class="title">A Review of: Using million of emoji occurrences</h1>
+<section id="title-slide">
+  <h1 class="title">find a funny title</h1>
   <p class="author">Angelo Basile &amp; Kenny Lino</p>
   <p class="date">January 12, 2018</p>
 </section>
 
-<section><section id="outline" class="titleslide slide level1"><h1>Outline</h1></section><section id="outline-1" class="slide level2">
-<h2>Outline</h2>
-<ul>
-<li class="fragment">Motivation</li>
-<li class="fragment">Methodology</li>
-<li class="fragment">Conclusions</li>
-<li class="fragment">Demo</li>
-</ul>
-</section></section>
-<section><section id="motivation" class="titleslide slide level1"><h1>Motivation</h1></section><section id="section" class="slide level2">
+<section><section id="the-problem" class="title-slide slide level1"><h1>The problem</h1></section><section id="the-problem-1" class="slide level2">
+<h2>the problem</h2>
+<p><img data-src="./img/1.png" /></p>
+<div class="fragment">
+<p><img data-src="./img/3.png" /></p>
+</div>
+</section><section id="section" class="slide level2">
 <h2></h2>
-<ul>
-<li class="fragment">Previous models limited by binary classification and/or manual categorization</li>
-<li class="fragment">To detect emotion in text</li>
-</ul>
-</section></section>
-<section><section id="methodology" class="titleslide slide level1"><h1>Methodology</h1></section><section id="training" class="slide level2">
-<h2>Training</h2>
-<p>Train on 1.2 billion tweet corpus and 64 commonly used emojis <img src="./emoji_overview.png" alt="Image of the 64 Emojis" /></p>
-</section><section id="dnn-structures" class="slide level2">
-<h2>DNN structures</h2>
-<p>Long Short-Term Memory and Skip-connections</p>
+<p><img data-src="./img/2.png" /></p>
 </section><section id="section-1" class="slide level2">
 <h2></h2>
+<p><img data-src="./img/4.png" /></p>
+</section><section id="arxiv.orgabs1708.00524" class="slide level2">
+<h2>arxiv.org/abs/1708.00524</h2>
+<p><em>Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm</em> (Felbo et al.)</p>
+</section><section id="why" class="slide level2">
+<h2>why</h2>
+<div class="fragment">
+<p>broad usage of emojis</p>
+</div>
+<div class="fragment">
+<p>opinion mining</p>
+</div>
+<div class="fragment">
+<p>necessity?</p>
+</div>
+<div class="fragment">
+<p>interlingua?</p>
+</div>
 </section></section>
-<section><section id="conclusions" class="titleslide slide level1"><h1>Conclusions</h1></section></section>
-<section><section id="demo" class="titleslide slide level1"><h1><a href="https://deepmoji.mit.edu/">Demo</a></h1></section></section>
+<section><section id="methodology" class="title-slide slide level1"><h1>methodology</h1></section><section id="methodology-1" class="slide level2">
+<h2>Methodology</h2>
+<ul>
+<li>distant supervision</li>
+<li>neural model</li>
+</ul>
+</section><section id="training" class="slide level2">
+<h2>Training</h2>
+<p>1.2 billion tweets and 64 commonly used emojis</p>
+<p><img data-src="./img/emoji_overview.png" /></p>
+</section><section id="dnn-structures" class="slide level2">
+<h2>DNN structures</h2>
+<p><img data-src="./img/network.png" /></p>
+</section></section>
+<section><section id="extrinsic-applications" class="title-slide slide level1"><h1>Extrinsic applications</h1></section><section id="motivation-of-this-work" class="slide level2">
+<h2>Motivation of this work</h2>
+<p>Use the pre-trained network on various tasks</p>
+<div class="fragment">
+<p>Previous models limited by binary classification and/or manual categorization</p>
+</div>
+</section><section id="applications" class="slide level2">
+<h2>Applications</h2>
+<div class="fragment">
+<p>detection of…</p>
+</div>
+<div class="fragment">
+<p>sentiment</p>
+</div>
+<div class="fragment">
+<p>emotion</p>
+</div>
+<div class="fragment">
+<p>sarcasm</p>
+</div>
+</section><section id="results" class="slide level2">
+<h2>Results</h2>
+<p><img data-src="./img/results.png" /></p>
+</section></section>
+<section><section id="conclusions" class="title-slide slide level1"><h1>Conclusions</h1></section><section id="conclusions-1" class="slide level2">
+<h2>Conclusions</h2>
+<div class="fragment">
+<p>no conclusions</p>
+</div>
+</section></section>
+<section><section id="demo" class="title-slide slide level1"><h1><a href="https://deepmoji.mit.edu/">Demo</a></h1></section></section>
     </div>
   </div>
 
@@ -72,12 +125,14 @@
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
 
         // Optional reveal.js plugins
         dependencies: [
           { src: './/lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: './/plugin/zoom-js/zoom.js', async: true },
-              { src: './/plugin/notes/notes.js', async: true }
+          { src: './/plugin/notes/notes.js', async: true }
         ]
       });
     </script>
